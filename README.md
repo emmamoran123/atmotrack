@@ -1,7 +1,7 @@
 # AtmoTrack
 
 AtmoTrack is an AI-driven nutrition and symptom tracking prototype designed for individuals using GLP-1 medications.
-Built in Google AI Studio, it demonstrates how AI can translate daily symptom and motility data into actionable, personalized nutrition guidance.
+It demonstrates how AI can translate daily symptom and motility data into actionable, personalized nutrition guidance.
 The AI analyzes subjective user inputs such as appetite, energy, dosing, and gastrointestinal comfort as well as objective persolaized motility data to generate adaptive meal plans that respond to how the patient is feeling.
 Meanwhile, the app provides clinicians with data visualization and trend insights to support monitoring of treatment adherence and tolerance.
 Through its combination of AI meal generation, symptom tracking, and motility insights, AtmoTrack showcases how digital health tools can bridge the gap between everyday self-care and clinical insight.
