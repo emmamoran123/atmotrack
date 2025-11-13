@@ -1,0 +1,5 @@
+{
+  "name": "AtmoTrack",
+  "description": "An AI-powered nutrition companion that provides personalized meal plans and symptom tracking for GLP-1 users.",
+  "requestFramePermissions": []
+}
