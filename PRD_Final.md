@@ -24,7 +24,7 @@ AI in AtmoTrack functions as a translation layer rather than a clinical decision
 | Meal Planner (AI-driven) | Generates breakfast/lunch/dinner + grocery list based on latest symptom & dose inputs (mock AI logic or Gemini outputs) | Implemented (AI-driven) |
 | Motility Insights | Dummy 7-day motility values and chart + AI-style insight snippets | Implemented (simulated data) |
 | Data storage | In-memory React state (session only): logs shown in-app, no server-side persistence | Implemented |
-| About & Privacy | App purpose, AI disclaimer, and privacy modal | Implemented |
+| About & Privacy | App purpose, AI disclaimer, and privacy statement | Implemented |
 
 ---
 
