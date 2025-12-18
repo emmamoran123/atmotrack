@@ -23,7 +23,7 @@ Ask AtmoTrack about symptom management, nutrition guidance, or interpreting your
 
 ---
 
-## How This Project Uses AI (Plain Language)
+## How This Project Uses AI
 
 AtmoTrack uses AI to help patients make sense of their day-to-day experiences on GLP-1 medications:
 
