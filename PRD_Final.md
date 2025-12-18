@@ -1,4 +1,4 @@
-# 📑 AtmoTrack — Final Product Requirements Document (PRD)
+# 📑 AtmoTrack: Final Product Requirements Document (PRD)
 **Phase 3 — Final Version**
 
 ---
@@ -19,7 +19,7 @@ Built as a multi-tab web app, the prototype demonstrates how daily symptom and d
 | Dosing Tracker | Select GLP-1 brand, record dose/time; dose history | Implemented |
 | Meal Planner (AI-driven) | Generates breakfast/lunch/dinner + grocery list based on latest symptom & dose inputs (mock AI logic or Gemini outputs) | Implemented (AI-driven) |
 | Motility Insights | Dummy 7-day motility values and chart + AI-style insight snippets | Implemented (simulated data) |
-| Data storage | In-memory React state (session only) — logs shown in-app; no server-side persistence | Implemented |
+| Data storage | In-memory React state (session only): logs shown in-app, no server-side persistence | Implemented |
 | About & Privacy | App purpose, AI disclaimer, and privacy modal | Implemented |
 
 ---
@@ -28,7 +28,7 @@ Built as a multi-tab web app, the prototype demonstrates how daily symptom and d
 
 **What the AI does:**
 - **Generates personalized meal plans** (Breakfast / Lunch / Dinner + ingredient list + grocery summary) tailored to the user’s latest symptom and dosing inputs.
-- **Interprets symptom entries** and returns short, non-diagnostic explanations (e.g., “Symptoms consistent with delayed gastric emptying — consider smaller, lower-fat meals”).
+- **Interprets symptom entries** and returns short, non-diagnostic explanations (e.g., “Symptoms consistent with delayed gastric emptying: consider smaller, lower-fat meals”).
 - **Produces motility-style insights** from dummy sensor values (for demo purposes).
 
 **Inputs:** latest symptom controls (sliders/chips/radios), latest dosing entry, optional free-text question.  
@@ -46,7 +46,7 @@ Built as a multi-tab web app, the prototype demonstrates how daily symptom and d
 ## 4. Technical Architecture
 
 **Frontend**
-- React app (single-page multi-tab navigation using components: `Navbar`, `Home`, `MealPlanner`, `SymptomTracker`, `MotilityInsights`, `DosingTracker`, `About`).
+- React app (single-page multi-tab navigation using components: `Home`, `MealPlan`, `Dosing`, `SymptomLog`, `MotilityInsights`, `About`).
 - State: `symptomLogs` and `doseLogs` are stored in React state (session). No database.
 
 **Backend**
@@ -66,10 +66,10 @@ App displays structured output to user
 
 **Key prompts used:**
 1. “Generate a one-day meal plan for a GLP-1 medication user. Small, high-protein, easy-to-digest meals, include calories and grocery list.”  
-2. “Given user symptom ratings (appetite, energy, nausea severity, bowel movement), return an adaptive meal plan and a 1–2 sentence rationale.”  
+2. “Given user symptom ratings (appetite, energy, nausea severity, bowel movement), return an adaptive meal plan and a 1-2 sentence rationale.”  
 3. “Produce a short motility insight sentence given dummy gastric emptying and transit time values.”
 
-**Iteration Notes:** Prompts were refined to (a) include GLP-1 context, (b) ban diagnostic language, and (c) force structured outputs (Breakfast:, Lunch:, Dinner:, Grocery:). Short, explicit guardrail lines produced the most reliable outputs.
+**Iteration Notes:** Prompts were refined to (a) include GLP-1 context and specific drugs, (b) ban diagnostic language, and (c) force structured outputs (Breakfast:, Lunch:, Dinner:, Grocery:). Short, explicit guardrail lines produced the most reliable outputs.
 
 ---
 
@@ -81,7 +81,7 @@ App displays structured output to user
 - Logs are stored only in-memory (session lost on refresh).  
 - No clinician dashboard or secure database yet.  
 - Motility data is simulated (dummy values); real device integration is future work.  
-- AI output quality depends on prompt quality and may be generic at times.
+- AI output quality fot 'Ask AtmoTrack' depends on prompt quality and may be generic at times.
 
 ---
 
