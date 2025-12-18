@@ -56,13 +56,13 @@ The AI runs within **Google Gemini (AI Studio)**, using carefully designed promp
 ## How to View or Run
 
 **GitHub Pages:**  
-[https://github.com/emmamoran123/atmotrack](https://github.com/emmamoran123/atmotrack)
+https://github.com/emmamoran123/atmotrack](https://github.com/emmamoran123/atmotrack
 
 **Google AI Studio:**  
-[https://aistudio.google.com/apps/drive/1oeKsXjpV9xi3507L1Rvcr5xRIW9Yw4x9?showAssistant=true&resourceKey=&showCode=true]
+https://ai.studio/apps/drive/1oeKsXjpV9xi3507L1Rvcr5xRIW9Yw4x9
 
 **Demo Video (2–5 minutes):**  
-[https://drive.google.com/file/d/1ozezSnSAlw5VpRtQPCLJfCQlfzYyE0xr/view?usp=sharing]
+https://drive.google.com/file/d/1ozezSnSAlw5VpRtQPCLJfCQlfzYyE0xr/view?usp=sharing
 
 ---
 
