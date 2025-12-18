@@ -14,17 +14,18 @@ AI in AtmoTrack is intentionally constrained to act as a translation and guidanc
 
 ---
 
-## 2. Core Features & Current Status
+## 2. Core Features & Status
 
-| Feature | What it is in the prototype | Status |
-|---|---|---:|
-| Multi-tab UI | Home, Meal Plan, Dosing, Symptom Log, Motility Insights, About | Implemented |
-| Symptom Log UI | Appetite & Energy (1–5 sliders); Nausea, Bloating, Cramps (severity chips); Bowel Movements (radio) + Notes + History view | Implemented |
-| Dosing Tracker | Select GLP-1 brand, record dose/time; dose history | Implemented |
-| Meal Planner (AI-driven) | Generates breakfast/lunch/dinner + grocery list based on latest symptom & dose inputs (mock AI logic or Gemini outputs) | Implemented (AI-driven) |
-| Motility Insights | Dummy 7-day motility values and chart + AI-style insight snippets | Implemented (simulated data) |
-| Data storage | In-memory React state (session only): logs shown in-app, no server-side persistence | Implemented |
-| About & Privacy | App purpose, AI disclaimer, and privacy statement | Implemented |
+| Feature | Description | Status | AI-driven? |
+|---------|------------|--------|------------|
+| Symptom Log | Users log appetite, nausea, bloating, bowel movements, and other GI symptoms | Implemented | No |
+| Adaptive Meal Guidance | AI generates meal suggestions based on symptoms | Implemented | Yes |
+| Motility Insights (Dummy) | Displays simplified gastric emptying and transit time patterns | Partially Implemented | Yes |
+| Dosing Tracker | Log GLP-1 medication brand, dose, and timing | Implemented | No |
+| Ask AtmoTrack | Explains how symptoms, meals, and medication timing interact | Implemented | Yes |
+| Clinician Dashboard | Visualize symptom trends and correlations | Future | Yes |
+| Persistent User Accounts | Save symptom logs for clinician sharing | Future | No |
+
 
 ---
 
