@@ -31,7 +31,8 @@ AtmoTrack uses AI to help patients make sense of their day-to-day experiences on
 - **Symptom Interpretation:** Summarizes patterns in your symptoms and suggests practical ways to manage GI discomfort.  
 - **Data Translation:** Converts raw symptom and motility inputs into understandable, actionable advice for users.
 
-The AI runs within **Google Gemini (AI Studio)**, using carefully designed prompts to ensure outputs remain educational and supportive—not medical advice.
+All AI outputs are **educational and supportive**, not medical advice. They were created using **carefully designed prompts in Google Gemini (AI Studio)**, and I refined these prompts through iteration to make outputs more useful and clear.
+
 
 ---
 
