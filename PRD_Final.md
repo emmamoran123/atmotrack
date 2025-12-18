@@ -5,11 +5,11 @@
 
 ## 1. Product Overview
 
-AtmoTrack is a prototype digital companion designed to explore how gastrointestinal motility data and symptom patterns could be translated into practical support for patients using GLP-1 medications. While therapies such as semaglutide and tirzepatide can be highly effective, gastrointestinal side effects are a common reason for discontinuation, often without sufficient tools to help patients understand or manage them.
+AtmoTrack is a prototype digital companion designed to explore how gastrointestinal symptom patterns, dosing context, and (eventually) objective motility data could be translated into practical support for patients using GLP-1 medications such as semaglutide and tirzepatide. While these therapies can be life-changing, gastrointestinal side effects are a common reason for discontinuation, often without sufficient tools to help patients understand or manage them.
 
-The product focuses on bridging this gap by combining symptom and dosing inputs with an AI-powered interface that provides dietary guidance, symptom interpretation, and educational context around GLP-1-related motility changes. For patients, AtmoTrack offers simple, non-medical guidance to help manage day-to-day symptoms. For clinicians and researchers, it conceptually demonstrates how structured symptom data and future motility measurements could support better adherence and regimen monitoring.
+The current prototype focuses on patient-facing support through symptom logging, dosing tracking, and AI-assisted interpretation that provides dietary guidance and educational context around GLP-1-related motility changes. Rather than functioning as a medical decision tool, AtmoTrack demonstrates how structured inputs and generative AI can help make complex physiological effects more understandable and actionable for everyday use by patients.
 
-AI in AtmoTrack functions as a translation layer rather than a clinical decision-maker. It is intentionally constrained to provide general lifestyle guidance and explanations, while avoiding diagnosis, treatment recommendations, or medication adjustments. The prototype serves as a proof-of-concept for how clinically validated motility data could eventually be made more actionable and accessible without introducing undue clinical risk.
+AI in AtmoTrack is intentionally constrained to act as a translation and guidance layer. It provides general lifestyle and dietary suggestions while avoiding diagnosis, treatment decisions, or medication recommendations. The product serves as a proof-of-concept for how clinically validated motility data could eventually be incorporated into safer, more supportive digital experiences.
 
 
 ---
