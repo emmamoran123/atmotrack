@@ -5,8 +5,12 @@
 
 ## 1. Product Overview
 
-**AtmoTrack** is an AI-driven nutrition and symptom-tracking prototype for individuals using GLP-1 medications (e.g., semaglutide, tirzepatide).  
-Built as a multi-tab web app, the prototype demonstrates how daily symptom and dosing inputs can be translated by AI into **actionable, patient-friendly meal guidance** and explanatory insights for clinicians. The app’s UI includes explicit symptom controls (sliders and severity chips), dosing logging, motility visualizations, and an AI-driven meal-planning assistant powered by Google AI Studio (Gemini).
+AtmoTrack is a prototype digital companion designed to explore how gastrointestinal motility data and symptom patterns could be translated into practical support for patients using GLP-1 medications. While therapies such as semaglutide and tirzepatide can be highly effective, gastrointestinal side effects are a common reason for discontinuation, often without sufficient tools to help patients understand or manage them.
+
+The product focuses on bridging this gap by combining symptom and dosing inputs with an AI-powered interface that provides dietary guidance, symptom interpretation, and educational context around GLP-1-related motility changes. For patients, AtmoTrack offers simple, non-medical guidance to help manage day-to-day symptoms. For clinicians and researchers, it conceptually demonstrates how structured symptom data and future motility measurements could support better adherence and regimen monitoring.
+
+AI in AtmoTrack functions as a translation layer rather than a clinical decision-maker. It is intentionally constrained to provide general lifestyle guidance and explanations, while avoiding diagnosis, treatment recommendations, or medication adjustments. The prototype serves as a proof-of-concept for how clinically validated motility data could eventually be made more actionable and accessible without introducing undue clinical risk.
+
 
 ---
 
