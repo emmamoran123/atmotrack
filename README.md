@@ -1,83 +1,80 @@
 # AtmoTrack
 
-AtmoTrack is an AI-driven nutrition and symptom tracking prototype designed for individuals using GLP-1 medications.
-It demonstrates how AI can translate daily symptom and motility data into actionable, personalized nutrition guidance.
-The AI analyzes subjective user inputs such as appetite, energy, dosing, and gastrointestinal comfort as well as objective persolaized motility data to generate adaptive meal plans that respond to how the patient is feeling.
-Meanwhile, the app provides clinicians with data visualization and trend insights to support monitoring of treatment adherence and tolerance.
-Through its combination of AI meal generation, symptom tracking, and motility insights, AtmoTrack showcases how digital health tools can bridge the gap between everyday self-care and clinical insight.
+AtmoTrack is an AI-powered nutrition and symptom tracking prototype designed for individuals using GLP-1 medications. The app explores how combining patient-reported symptoms, dosing patterns, and motility data (simulated for this prototype) with AI can provide actionable guidance for patients and structured insights for clinicians. AtmoTrack demonstrates how digital health tools can support daily self-care while providing meaningful context for treatment adherence and GI symptom management.
 
 ---
 
 ## Key Features
 
-- **Symptom Log:**  
-  Track appetite, energy, bloating/gas, cramps, nausea, and bowel movements using simple 1–5 or severity scales.
+**Symptom Log:**  
+Track appetite, energy, bloating/gas, cramps, nausea, and bowel movements using simple 1–5 or mild/moderate/severe scales.  
 
-- **Motility Insights:**  
-  View dummy gastric emptying and transit time data, with visual graphs and AI-generated insights.
+**Motility Insights:**  
+View dummy gastric emptying and transit time data with visual graphs and AI-generated summaries.  
 
-- **Adaptive Meal Planning:**  
-  AI-generated 2-day meal plans tailored to user symptoms and motility patterns, including meal breakdowns and grocery lists.
+**Adaptive Meal Planning:**  
+AI-generated 2-day meal plans tailored to user symptoms and motility patterns, including meal breakdowns and grocery lists.  
 
-- **Dosing Tracker:**  
-  Log GLP-1 RA medication brand, dosage, and timing to correlate with symptom patterns.
+**Dosing Tracker:**  
+Log GLP-1 RA medication brand, dosage, and timing to correlate with symptom patterns.  
 
-- **Chat Assistant:**  
-  Ask AtmoTrack about symptom management, nutrition guidance, or how to interpret data.
+**Chat Assistant:**  
+Ask AtmoTrack about symptom management, nutrition guidance, or interpreting your data.
 
 ---
 
-## AI Component
+## How This Project Uses AI (Plain Language)
 
-AtmoTrack uses **Google Gemini 1.5 Pro** in AI Studio to:
-- Generate personalized meal plans based on user-entered symptoms.
-- Provide natural-language summaries and dietary insights.
-- Simulate motility-based data interpretations using dummy variables.
+AtmoTrack uses AI to help patients make sense of their day-to-day experiences on GLP-1 medications:
 
-**Sample AI prompts used in development:**
-1. “Generate a one-day meal plan for a GLP-1 medication user focusing on small, high-protein meals that are easy to digest.”
-2. “Refine the meal plan format to show breakfast, lunch, dinner, ingredients, calories, and grocery list.”
-3. “Add a ‘Motility Insights’ tab that shows dummy gastric emptying rate and transit time data with AI-generated insights.”
+- **Meal Guidance:** Generates personalized meal plans based on your logged symptoms, energy, appetite, and simulated motility data.  
+- **Symptom Interpretation:** Summarizes patterns in your symptoms and suggests practical ways to manage GI discomfort.  
+- **Data Translation:** Converts raw symptom and motility inputs into understandable, actionable advice for users.
+
+The AI runs within **Google Gemini (AI Studio)**, using carefully designed prompts to ensure outputs remain educational and supportive—not medical advice.
 
 ---
 
 ## How It Works
 
-1. The user logs symptoms and dosage.
-2. AI interprets symptom trends and motility data.
-3. A tailored meal plan is generated to minimize discomfort and support nutritional needs.
-4. Data and insights are saved for review under each section’s **History** view.
+1. The user logs symptoms and medication dosage.  
+2. AI analyzes symptom trends and simulated motility data.  
+3. Tailored meal plans are generated to support nutrition while minimizing discomfort.  
+4. Historical entries are saved and accessible under each section’s “History” view.
 
 ---
 
 ## Technology Stack
 
-- **Frontend:** HTML, CSS, JavaScript  
-- **AI Platform:** Google Gemini (AI Studio)  
+- **Frontend:** HTML, CSS, JavaScript (React-based components in AI Studio)  
+- **AI Platform:** Google Gemini via AI Studio  
 - **Version Control:** GitHub  
-- **Optional Hosting:** GitHub Pages or Google AI Studio preview
+- **Hosting Options:** GitHub Pages or Google AI Studio preview
 
 ---
 
 ## How to View or Run
 
-GitHub Pages:  
-[https://github.com/emmamoran123/atmotrack.git]
+**GitHub Pages:**  
+[https://github.com/emmamoran123/atmotrack](https://github.com/emmamoran123/atmotrack)
 
-Google AI Studio:  
+**Google AI Studio:**  
 [https://aistudio.google.com/apps/drive/1oeKsXjpV9xi3507L1Rvcr5xRIW9Yw4x9?showAssistant=true&resourceKey=&showCode=true]
+
+**Demo Video (2–5 minutes):**  
+[https://drive.google.com/file/d/1ozezSnSAlw5VpRtQPCLJfCQlfzYyE0xr/view?usp=sharing]
 
 ---
 
 ## Developer Notes
 
-This prototype was built as part of a design and AI integration project.  
-All data (including motility readings) are dummy placeholders for demonstration purposes only.  
-Future integration will include real device outputs and refined AI-diet feedback loops.
+- This is a prototype built for educational and research purposes.  
+- All symptom and motility data are dummy placeholders.  
+- Future updates may integrate real device outputs and refined AI feedback loops.
 
 ---
 
 ## Credits
 
-Created by **Emma Moran**  
-Powered by **Google Gemini AI Studio**  
+Created by Emma Moran  
+Powered by Google Gemini AI Studio
